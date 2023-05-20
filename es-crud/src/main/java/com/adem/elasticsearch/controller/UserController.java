@@ -4,8 +4,6 @@ import com.adem.elasticsearch.dto.PageVO;
 import com.adem.elasticsearch.dto.UserEsQueryVO;
 import com.adem.elasticsearch.dto.UserVO;
 import com.adem.elasticsearch.service.UserService;
-import jakarta.validation.Valid;
-import jakarta.validation.constraints.Min;
 import lombok.RequiredArgsConstructor;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.DeleteMapping;

@@ -6,7 +6,6 @@ import co.elastic.clients.json.JsonpMapper;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.json.spi.JsonProvider;
-import jakarta.json.stream.JsonParser;
 
 import java.io.Reader;
 import java.io.StringReader;

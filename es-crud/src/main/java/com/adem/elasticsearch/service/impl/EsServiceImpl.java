@@ -1,12 +1,8 @@
 package com.adem.elasticsearch.service.impl;
 
 import co.elastic.clients.elasticsearch.ElasticsearchClient;
-import co.elastic.clients.elasticsearch.core.BulkRequest;
-import co.elastic.clients.elasticsearch.core.IndexRequest;
-import co.elastic.clients.elasticsearch.core.bulk.BulkOperation;
 import co.elastic.clients.elasticsearch.indices.CreateIndexResponse;
 import co.elastic.clients.elasticsearch.indices.ExistsRequest;
-import co.elastic.clients.elasticsearch.indices.GetIndexResponse;
 import co.elastic.clients.transport.endpoints.BooleanResponse;
 import com.adem.elasticsearch.service.EsService;
 import lombok.RequiredArgsConstructor;
